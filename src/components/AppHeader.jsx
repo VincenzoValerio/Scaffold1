@@ -1,11 +1,11 @@
-const payoff = "Molisana, pasta sana!"
+const slogan = "Molisana, pasta sana!"
 
 export default function AppHeader() {
     return (
         <header>
             <figure>
                 <img src="/logo.png" alt="Logo" />
-                <p>{payoff}</p>
+                <p>{slogan}</p>
             </figure>
             <nav>
                 <ul>
