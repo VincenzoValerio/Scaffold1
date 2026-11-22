@@ -1,6 +1,13 @@
+import AppHeader from "./components/AppHeader";
+
 // Export - Modalità breve
 export default function App() {
-  return (<div>Hello React</div>);
+  return (
+    <>
+      <AppHeader />
+      <div>Hello React</div>;
+    </>
+  )
 }
 
 // // Export - Modalità estesa
