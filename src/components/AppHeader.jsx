@@ -12,7 +12,7 @@ export default function AppHeader() {
         <header>
             <figure>
                 <img src="/logo.png" alt="Logo" />
-                <p style={stile}>{slogan}</p>
+                <p>{slogan}</p>
             </figure>
             <nav>
                 <ul>
@@ -24,6 +24,6 @@ export default function AppHeader() {
                     </li>
                 </ul>
             </nav>
-        </header>
+        </header >
     )
 }
