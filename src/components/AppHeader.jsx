@@ -1,6 +1,7 @@
-const slogan = "Molisana, pasta sana!"
 
 export default function AppHeader() {
+    const slogan = "Molisana, pasta sana!"
+
     return (
         <header>
             <figure>
