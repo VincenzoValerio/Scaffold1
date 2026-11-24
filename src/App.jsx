@@ -1,16 +1,18 @@
 import AppHeader from "./components/AppHeader"
 import AppFooter from "./components/AppFooter"
 import AppMain from "./components/AppMain"
-import React from "react"
+// import React from "react"
 
 // Export - Modalità breve
 export default function App() {
   return (
-    <React.Fragment>
+    // <React.Fragment> // Richiede import React from "react"
+    <>
       <AppHeader />
       <AppMain />
       <AppFooter />
-    </React.Fragment>
+    // </React.Fragment >
+    </>
   )
 }
 
