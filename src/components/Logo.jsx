@@ -5,7 +5,7 @@ export default function Logo() {
     const stile = {
         //     "background-color": "crimson",
         //     backgroundColor: "crimson",
-        "padding": "1rem",
+        padding: "1rem",
     }
 
     return (
