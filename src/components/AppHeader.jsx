@@ -9,8 +9,8 @@ export default function AppHeader() {
         "Contatti",
     ]
 
-    const links = LinksLabels.map(elemento => {
-        return <li><a href="#">{elemento}</a></li>
+    const links = LinksLabels.map((elemento, i) => {
+        return <li key={i}><a href="#">{elemento}</a></li>
     })
 
     return (
