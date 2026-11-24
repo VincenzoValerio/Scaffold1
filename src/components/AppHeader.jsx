@@ -2,11 +2,11 @@
 export default function AppHeader() {
     const slogan = "Molisana, pasta sana!"
 
-    const stile = {
-        // "background-color": "crimson",
-        // backgroundColor: "crimson",
-        // "padding": "1rem",
-    }
+    // const stile = {
+    //     "background-color": "crimson",
+    //     backgroundColor: "crimson",
+    //     "padding": "1rem",
+    // }
 
     return (
         <header>
