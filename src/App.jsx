@@ -6,13 +6,13 @@ import AppMain from "./components/AppMain"
 // Export - Modalità breve
 export default function App() {
   return (
-    // <React.Fragment> // Richiede import React from "react"
-    <>
+    // <React.Fragment> // Frammento esteso - richiede import React from "react"
+    <> {/* Frammento breve */}
       <AppHeader />
       <AppMain />
       <AppFooter />
-    // </React.Fragment >
     </>
+    // </React.Fragment>
   )
 }
 
