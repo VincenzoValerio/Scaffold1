@@ -2,22 +2,23 @@ import Logo from "./Logo";
 
 export default function AppHeader() {
 
-    const links = [
-        "Nome",
+    const LinksLabels = [
+        "Home",
         "Prodotti",
         "Chi Siamo",
         "Contatti",
     ]
+
+    const links = LinksLabels.map(elemento => {
+        return <li><a href="#">{elemento}</a></li>
+    })
 
     return (
         <header>
             <Logo />
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Prodotti</a></li>
-                    <li><a href="#">Chi Siamo</a></li>
-                    <li><a href="#">Contatti</a></li>
+                    {links}
                 </ul>
             </nav>
         </header>
